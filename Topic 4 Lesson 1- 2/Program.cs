@@ -1,7 +1,10 @@
 ﻿//1
 int piterburg = 5598486;
 int moskva = 13015126;
-Console.WriteLine($"В Москве на {moskva - piterburg} жителей больше чем в Питербурге");
+int residents = (moskva - piterburg) / 1000;
+Console.WriteLine($"В Москве на {residents} жителей больше, чем в Питербурге");
+/*Пришлось импровизировать так как в задание не коректно укзан вопрос.
+ * "НА сколько тысяч жителей МЕНЬШЕ в Москве"*/
 
 //2
 Decimal perYear = 260548.56895m;//За год
